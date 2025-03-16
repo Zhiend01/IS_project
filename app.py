@@ -50,7 +50,7 @@ if page == "ทดสอบ ML":
     st.header("ทดสอบการจำแนกภาพโดยใช้ Machine Learning (SVM & Random Forest)")
     st.write("ในหน้านี้ คุณสามารถอัปโหลดรูปภาพของแมวหรือสุนัข และให้โมเดล Machine Learning ทำการทำนายว่าภาพนั้นเป็นแมวหรือสุนัข โดยใช้โมเดล SVM และ Random Forest")
     st.write("ตัวอย่างการทำงาน Machine Learning")
-    st.image("Img.png", caption="กระบวนการพัฒนาโมเดล Machine Learning", use_container_width=True)
+    st.image("Img.PNG", caption="กระบวนการพัฒนาโมเดล Machine Learning", use_container_width=True)
 
 
     uploaded_file = st.file_uploader("อัปโหลดรูปภาพ (JPG หรือ PNG)", type=["jpg", "png"])
@@ -69,7 +69,7 @@ elif page == "ทดสอบ CNN":
     st.header("ทดสอบการจำแนกภาพโดยใช้ Deep Learning (CNN)")
     st.write("ในหน้านี้ คุณสามารถอัปโหลดรูปภาพของแมวหรือสุนัข และให้โมเดล CNN ทำการทำนายผล")
     st.write("ตัวอย่างการทำงาน Neural Network")
-    st.image("Img2.png", caption="กระบวนการพัฒนาโมเดล Machine Learning", use_container_width=True)
+    st.image("Img2.PNG", caption="กระบวนการพัฒนาโมเดล Machine Learning", use_container_width=True)
 
 
     uploaded_file = st.file_uploader("อัปโหลดรูปภาพ (JPG หรือ PNG)", type=["jpg", "png"])
